@@ -10,7 +10,7 @@ The blockstream.info public APIs are available at:
 
 For example:
 ```bash
-$ curl https://blockstream.info/api/blocks/tip/hash
+$ curl https://enterprise.blockstream.info/api/blocks/tip/hash
 ```
 
 You can also [self-host the Esplora API server](https://github.com/Blockstream/esplora#how-to-run-the-explorer-for-bitcoin-mainnet), which provides better privacy and security.
