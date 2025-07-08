@@ -14,7 +14,7 @@ $ curl https://enterprise.blockstream.info/api/blocks/tip/hash
 ```
 
 Example:
-```curl [https://enterprise.blockstream.info/api/](https://enterprise.blockstream.info/api/address/bc1qmltc53whjhta5wcsf8l94kqksj0jr84rux9xd6) -H "{ Authorization: Bearer{token} }"```
+```curl https://enterprise.blockstream.info/api/address/bc1qmltc53whjhta5wcsf8l94kqksj0jr84rux9xd6 -H "{ Authorization: Bearer{token} }"```
 
 You can also [self-host the Esplora API server](https://github.com/Blockstream/esplora#how-to-run-the-explorer-for-bitcoin-mainnet), which provides better privacy and security.
 
